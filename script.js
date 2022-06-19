@@ -78,35 +78,35 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: '1)Which tag is used for to hold a text?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: '<b>This text is bold</b>', correct: true },
+      { text: '<b>This text is bold</b>', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Which tag form is correct',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: '<!DOCTYPE HTML>', correct: true },
+      { text: '<!doctype html>', correct: false },
+      { text: '<!DOCKERTYPE HTML>', correct: false },
+      { text: '<!dockeytype html>', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'which is full form of html?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'HYPER TEXT MARKDOWN LANGUAGE', correct: false },
+      { text: 'HYPER TEXT MARKUP LANGUAGE', correct: true },
+      { text: 'HYPER STYLE MARKUP LANGUAGE', correct: false },
+      { text: 'NONE OF THE ABOVE', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'What is correct?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: '<p><b><i>lol</p></b></i>', correct: false },
+      { text: '<p><b><i>lol</i></b></p>', correct: true }
     ]
   }
 ]
